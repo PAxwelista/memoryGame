@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    domains: [],
-  },
-}
+    reactStrictMode: true,
+    images: {
+        domains: [],
+    },
 
-module.exports = nextConfig
+    presets: ["next/babel"],
+};
+
+module.exports = nextConfig;
